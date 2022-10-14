@@ -66,7 +66,7 @@ class Iadi2022Lab1ApplicationTests {
     fun `saying hello to Maria`() {
         mvc.post(greetingURL) {
             accept = MediaType.APPLICATION_JSON
-            content = mapper.writeValueAsString(GreetingRequest("Maria"))
+            content = mapper.writeValueAsString(GreetingRequest("Maria")) //n entendi aqui -> aqui n tem maria
             contentType = MediaType.APPLICATION_JSON
         }
         .andExpect {
@@ -78,7 +78,7 @@ class Iadi2022Lab1ApplicationTests {
 
     @Test
     fun `with mock service`() {
-        Mockito.`when`(userService.userExists(anyString())).thenAnswer { it.arguments[0] == "Maria" }
+        Mockito.`when`(userService.userExists(anyString())).thenAnswer { it.arguments[0] == "Maria" } //-> aqui simula que sim
 
         mvc.post(greetingURL) {
             accept = MediaType.APPLICATION_JSON
