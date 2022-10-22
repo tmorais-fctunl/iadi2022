@@ -18,6 +18,7 @@ interface OrderRepository : CrudRepository<Order,Long> {
 
     @Query("select distinct s from Order o inner join o.lines l inner join l.product p inner join p.stores s where o.number = :number")
     fun findStores(number:Long):Collection<Store>
+    //@ParamNumber(number:Long
 
     @Query("select distinct new pt.unl.fct.di.lab4.data.ProductStorePair(p,s) from Order o inner join o.lines l inner join l.product p inner join p.stores s where o.number = :number")
     fun findProductPairs(number:Long):Collection<ProductStorePair>

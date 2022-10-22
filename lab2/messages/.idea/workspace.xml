@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f60bc6f-211e-4735-8f34-365f03e88c7f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pt/unl/fct/di/iadi/messages/presentation/MailboxDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pt/unl/fct/di/iadi/messages/presentation/MailboxDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/src/test/kotlin/pt/unl/fct/di/iadi/iadi2022lab1/Iadi2022Lab1ApplicationTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/src/test/kotlin/pt/unl/fct/di/iadi/iadi2022lab1/Iadi2022Lab1ApplicationTests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../project/Project/src/main/kotlin/pt/unl/fct/di/iadi/project/project/data/DAO.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab4/src/main/kotlin/pt/unl/fct/di/lab4/data/Repositories.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/src/main/kotlin/pt/unl/fct/di/lab4/data/Repositories.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +104,9 @@
       <workItem from="1665159926692" duration="33000" />
       <workItem from="1665159965860" duration="840000" />
       <workItem from="1665312992196" duration="641000" />
+      <workItem from="1665761020601" duration="27000" />
+      <workItem from="1666187536809" duration="432000" />
+      <workItem from="1666451152281" duration="39000" />
     </task>
     <servers />
   </component>
